@@ -1,0 +1,32 @@
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dcdcdc; /* Example background color */
+    /* padding-right: 58rem; */
+    position: fixed;
+    width: 204vh;
+    z-index: 99;
+   
+  }
+  
+  .logo  img{
+   height: 4rem;
+  }
+  
+  .header a {
+    margin-left: 40px; /* Add spacing between the links */
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: rgb(84, 67, 67); /* Example link color */
+    margin-right: 60px;
+    
+  }
+ 
+  
+  .header a:hover {
+    color: blue; /* Example hover color */
+  }
+  

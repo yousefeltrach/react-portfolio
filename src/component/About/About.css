@@ -1,0 +1,38 @@
+#about{
+    height: 100vh;
+    /* margin-top: 12rem; */
+}
+.container .text {
+    display: flex;
+    margin-top: 3rem;
+    font-size: larger;
+  
+}
+.name {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 900;
+    color: rgba(43, 27, 217, 0.886);
+}
+.container{
+
+    overflow: hidden;
+    width: 100%; 
+    height: auto; 
+}
+
+.container .pic img {
+   width: 44rem;
+   height: 28rem;
+   
+}
+.name h2{
+    margin-left: 38rem;
+}
+ #about .title{
+    margin-top: 2rem;
+ }
+
+    
+    

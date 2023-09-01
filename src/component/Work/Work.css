@@ -1,0 +1,78 @@
+.mywork  {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    
+} 
+
+.cel1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.cel1 .web  {
+    width: 45%;
+    box-shadow: 0px 0px 16px 6px rgba(0,0,0,0.16);
+    -webkit-box-shadow: 0px 0px 16px 6px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 0px 16px 6px rgba(0,0,0,0.16);
+    transition: transform 1s; 
+    overflow: hidden;
+}
+
+
+ .cel1 .web img {
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+
+}
+
+ .cel1 .web .main {
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.545);
+    transform: translateY(100%); */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* transition: transform 0.6s; */
+    position: absolute;
+    bottom: 0; 
+    left: 0; 
+}
+
+
+ /* .cel1 .web:hover div {
+    transform: translateY(0);
+} */
+
+
+.cel1 .web .head{
+    font-weight: 900;
+    margin-bottom: 15px;
+    color: white;
+}
+.cel1 .web .coming{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-weight: 800;
+    color: #6267F4;
+}
+.mywork .text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.web .main .head {
+   
+    color: red;
+  
+}

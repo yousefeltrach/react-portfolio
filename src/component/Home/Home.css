@@ -1,0 +1,88 @@
+#home{
+    height: 100vh;
+    
+}
+.whatsaap img {
+    width: 87px;
+    height: 90px;
+    display: flex;
+    position: fixed;
+    right: 3rem;
+    margin-top: 38rem;
+    right: 5rem;
+    transition: transform 0.3s ease;
+}
+.whatsaap img:hover{
+    transform: scale(1.6);
+}
+.hi {
+    position: absolute;
+    margin-right: 4rem;  
+    margin-top: 10rem;
+    right: 62rem;
+    width: 22rem;
+}
+.hi img {
+    width: 40px;
+    height: 40px;
+}
+.me {
+    width: 30rem;
+    height: 32rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 10rem;
+    /* border-radius: 12rem 12rem 0 0; */
+    overflow: hidden;
+    border-radius: 50%;
+}
+.home-container {
+    
+    height: 100%;
+    position: relative;
+}
+
+.main-btn {
+    color: #fff;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+    margin-inline: 10px;
+   justify-content: center;
+   margin-top: 23rem;
+   right: 69rem;
+   width: 12rem;
+   
+}
+.main .main-btn{
+    margin-left: 3rem;
+}
+.main-btn:hover{
+    background-color: #0a4916;
+    transform: scale(1.1);
+}
+
+/*==========social-icons=======*/
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 3rem;
+    margin-top: 3rem;
+    /* left: -45rem; */
+    font-weight: 700;
+    transition: transform 0.3s ease;
+}
+.social-icons a:hover {
+    transform: scale(1.8);
+}
